@@ -23,6 +23,7 @@ img {
   margin-top: 100px;
 }
 
+
 /* header styling starts here */
 .apple-header {
   background: rgba(0, 0, 0, 0.8);
@@ -67,7 +68,18 @@ img {
 .iphone-price {
   font-size: 0.85em;
 }
-
+.iphone-11-pro,
+.iphone-11 {
+  height: 580px;
+  background-position: center;
+  background-size: cover;
+}
+.iphone-price {
+  font-size: 0.85em;
+}
+.iphone-11 {
+  background-image: url(../images/home/iphone11-bg.jpg);
+}
 /* section five */
 .tv-airpod {
   background-image: url(../images/home/apple-tv-background.jpg);
