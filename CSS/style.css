@@ -23,6 +23,19 @@ img {
   margin-top: 100px;
 }
 
+.iphone-11-pro,
+.iphone-11 {
+  height: 580px;
+  background-position: center;
+  background-size: cover;
+}
+.iphone-price {
+  font-size: 0.85em;
+}
+.iphone-11 {
+  background-image: url(../images/home/iphone11-bg.jpg);
+}
+
 /* for links, learn more and buy  */
 
 .links ul li a {
@@ -37,3 +50,5 @@ img {
   content: "\f105";
   padding-left: 5px;
 }
+
+
