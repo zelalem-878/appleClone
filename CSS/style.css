@@ -23,6 +23,20 @@ img {
   margin-top: 100px;
 }
 
+
+/* header styling starts here */
+.apple-header {
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 0.85em;
+  font-weight: 200;
+}
+.apple-header a {
+  color: #fff;
+}
+.navbar-toggler {
+  color: #fff;
+}
+
 /* for links, learn more and buy  */
 
 .links ul li a {
@@ -38,6 +52,36 @@ img {
   padding-left: 5px;
 }
 
+
+/* first section/ macbook pro styling */
+.first-macbook {
+  margin-top: 70px;
+}
+.iphone-11-pro {
+  background-image: url(../images/home/iphone11-pro-bg.jpg);
+}
+.iphone-11-pro,
+.iphone-11 {
+  height: 580px;
+  background-position: center;
+  background-size: cover;
+}
+.iphone-price {
+  font-size: 0.85em;
+}
+.iphone-11-pro,
+.iphone-11 {
+  height: 580px;
+  background-position: center;
+  background-size: cover;
+}
+.iphone-price {
+  font-size: 0.85em;
+}
+.iphone-11 {
+  background-image: url(../images/home/iphone11-bg.jpg);
+}
+
 .watch {
   background-image: url(../images/home/watch-series-5.jpg);
   height: 580px;
@@ -48,3 +92,68 @@ img {
   height: 580px;
   background-position: center;
 }
+
+/* section five */
+.tv-airpod {
+  background-image: url(../images/home/apple-tv-background.jpg);
+}
+.tv-show-logo {
+  margin-block: 175px;
+}
+.tv-video a {
+  color: #0066cc;
+  font-size: 0.85em;
+  text-decoration: none;
+}
+.tv-video a::after {
+  font-family: "FontAwesome";
+  font-weight: 700;
+  content: "\f144";
+  padding-left: 10px;
+}
+.airpod {
+  background-image: url(../images/home/air-pods.jpg);
+  height: 580px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: black;
+}
+
+/* my homework start here */
+* {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+}
+
+.learn-more1 ul li a::after {
+  font-family: "fontawesome";
+  content: "\f105";
+  padding-left: 10px;
+}
+.learn-more1 ul li {
+  display: inline-block;
+  padding: 10px;
+}
+.model16 {
+  padding-top: 70px;
+}
+
+.mac-book {
+  background-image: url("../images/home/macbook-pro.jpg");
+  height: 580px;
+  background-size: initial;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: #fafafa;
+}
+.rightside-last {
+  background-image: url("../images/home/new-ipad.jpg");
+  height: 580px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* section 6 ends here */
+
