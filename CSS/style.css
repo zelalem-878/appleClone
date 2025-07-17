@@ -51,39 +51,31 @@ img {
   padding-left: 5px;
 }
 
-/* my homework start here */
-* {
-  list-style: none;
+/* section five */
+.tv-airpod {
+  background-image: url(../images/home/apple-tv-background.jpg);
+  height: 580px;
+  background-position: center;
+  background-size: cover;
 }
-ul li a {
+.tv-show-logo {
+  margin-block: 175px;
+}
+.tv-video a {
+  color: #0066cc;
+  font-size: 0.85em;
   text-decoration: none;
 }
-
-.learn-more1 ul li a::after {
-  font-family: "fontawesome";
-  content: "\f105";
+.tv-video a::after {
+  font-family: "FontAwesome";
+  font-weight: 700;
+  content: "\f144";
   padding-left: 10px;
 }
-.learn-more1 ul li {
-  display: inline-block;
-  padding: 10px;
-}
-.model16 {
-  padding-top: 70px;
-}
-
-.mac-book {
-  background-image: url("../images/home/macbook-pro.jpg");
+.airpod {
+  background-image: url(../images/home/air-pods.jpg);
   height: 580px;
-  background-size: initial;
   background-repeat: no-repeat;
   background-position: bottom;
-  background-color: #fafafa;
-}
-.rightside-last {
-  background-image: url("../images/home/new-ipad.jpg");
-  height: 580px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-color: black;
 }
